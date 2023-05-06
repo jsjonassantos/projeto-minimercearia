@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/telasgrandes.css">
     <title>Mini Mercearia</title>
 </head>
 <body>
@@ -25,55 +24,200 @@
             <tr>
                 <td>Arroz</td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pc1" id="ipc1" min="0" max="50" required oninput="isoma.innerHTML= Number(ipv2.value) - Number(ipc1.value)">
+                    <input type="number" name="pc1" id="ipc1" min="0" max="10" required oninput="isoma.innerHTML= Number(ipv1.value) - Number(ipc1.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pv2" id="ipv2" min="0" max="50" required oninput="isoma.innerHTML= Number(ipv2.value) - Number(ipc1.value)">
+                    <input type="number" name="pv1" id="ipv1" min="0" max="10" required oninput="isoma.innerHTML= Number(ipv1.value) - Number(ipc1.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
                     <output name="soma" id="isoma">0</output>
                 </form></td>
-               </tr>
+            </tr>
 
-               <tr>
-                <td>Feijão</td>
+            <tr>
+                <td>Açucar</td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pc3" id="ipc3" min="0" max="50" required oninput="isoma2.innerHTML= Number(ipv4.value) - Number(ipc3.value)">
+                    <input type="number" name="pc2" id="ipc2" min="0" max="10" required oninput="isoma2.innerHTML= Number(ipv2.value) - Number(ipc2.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pv4" id="ipv4" min="0" max="50" required oninput="isoma2.innerHTML= Number(ipv4.value) - Number(ipc3.value)">
+                    <input type="number" name="pv2" id="ipv2" min="0" max="10" required oninput="isoma2.innerHTML= Number(ipv2.value) - Number(ipc2.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
                     <output name="soma2" id="isoma2">0</output>
                 </form></td>
-                </tr>
+            </tr>
 
-                <td>Macarrão</td>
+            <tr>
+                <td>Bolacha</td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pc5" id="ipc5" min="0" max="50" required oninput="isoma3.innerHTML= Number(ipv6.value) - Number(ipc5.value)">
+                    <input type="number" name="pc3" id="ipc3" min="0" max="10" required oninput="isoma3.innerHTML= Number(ipv3.value) - Number(ipc3.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pv6" id="ipv6" min="0" max="50" required oninput="isoma3.innerHTML= Number(ipv6.value) - Number(ipc5.value)">
+                    <input type="number" name="pv3" id="ipv3" min="0" max="10" required oninput="isoma3.innerHTML= Number(ipv3.value) - Number(ipc3.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
                     <output name="soma3" id="isoma3">0</output>
                 </form></td>
-                </tr>
+            </tr>
 
-                <td>Óleo</td>
+            <tr>
+                <td>Café</td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pc7" id="ipc7" min="0" max="50" required oninput="isoma4.innerHTML= Number(ipv8.value) - Number(ipc7.value)">
+                    <input type="number" name="pc4" id="ipc4" min="0" max="10" required oninput="isoma4.innerHTML= Number(ipv4.value) - Number(ipc4.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
-                    <input type="number" name="pv8" id="ipv8" min="0" max="50" required oninput="isoma4.innerHTML= Number(ipv8.value) - Number(ipc7.value)">
+                    <input type="number" name="pv4" id="ipv4" min="0" max="10" required oninput="isoma4.innerHTML= Number(ipv4.value) - Number(ipc4.value)">
                 </form></td>
                 <td><form action="" method="get" autocomplete="on">
                     <output name="soma4" id="isoma4">0</output>
                 </form></td>
+            </tr>
+
+            <tr>
+                <td>Chocolate</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc5" id="ipc5" min="0" max="10" required oninput="isoma5.innerHTML= Number(ipv5.value) - Number(ipc5.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv5" id="ipv5" min="0" max="10" required oninput="isoma5.innerHTML= Number(ipv5.value) - Number(ipc5.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma5" id="isoma5">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Feijão</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc6" id="ipc6" min="0" max="10" required oninput="isoma6.innerHTML= Number(ipv6.value) - Number(ipc6.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv6" id="ipv6" min="0" max="10" required oninput="isoma6.innerHTML= Number(ipv6.value) - Number(ipc6.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma6" id="isoma6">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Leite condensado</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc7" id="ipc7" min="0" max="10" required oninput="isoma7.innerHTML= Number(ipv7.value) - Number(ipc7.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv7" id="ipv7" min="0" max="10" required oninput="isoma7.innerHTML= Number(ipv7.value) - Number(ipc7.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma7" id="isoma7">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Macarrão</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc8" id="ipc8" min="0" max="10" required oninput="isoma8.innerHTML= Number(ipv8.value) - Number(ipc8.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv8" id="ipv8" min="0" max="10" required oninput="isoma8.innerHTML= Number(ipv8.value) - Number(ipc8.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma8" id="isoma8">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Margarina</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc9" id="ipc9" min="0" max="10" required oninput="isoma9.innerHTML= Number(ipv9.value) - Number(ipc9.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv9" id="ipv9" min="0" max="10" required oninput="isoma9.innerHTML= Number(ipv9.value) - Number(ipc9.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma9" id="isoma9">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Massa de Tomate</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc10" id="ipc10" min="0" max="10" required oninput="isoma10.innerHTML= Number(ipv10.value) - Number(ipc10.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv10" id="ipv10" min="0" max="10" required oninput="isoma10.innerHTML= Number(ipv10.value) - Number(ipc10.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma10" id="isoma10">0</output>
+                </form></td>
                 </tr>
 
-                
-        </tbody>
+            <tr>
+                <td>Miojo</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc11" id="ipc11" min="0" max="10" required oninput="isoma11.innerHTML= Number(ipv11.value) - Number(ipc11.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv11" id="ipv11" min="0" max="10" required oninput="isoma11.innerHTML= Number(ipv11.value) - Number(ipc11.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma11" id="isoma11">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <th scope="col">Bebidas</th>
+            </tr>
+
+            <tr>
+                <td>Cerveja</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc12" id="ipc12" min="0" max="10" required oninput="isoma12.innerHTML= Number(ipv12.value) - Number(ipc12.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv12" id="ipv12" min="0" max="10" required oninput="isoma12.innerHTML= Number(ipv12.value) - Number(ipc12.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma12" id="isoma12">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Pinga</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc13" id="ipc13" min="0" max="10" required oninput="isoma13.innerHTML= Number(ipv13.value) - Number(ipc13.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv13" id="ipv13" min="0" max="10" required oninput="isoma13.innerHTML= Number(ipv13.value) - Number(ipc13.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma13" id="isoma13">0</output>
+                </form></td>
+            </tr>
+
+            <tr>
+                <td>Refrigerante</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc14" id="ipc14" min="0" max="10" required oninput="isoma14.innerHTML= Number(ipv14.value) - Number(ipc14.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv14" id="ipv14" min="0" max="10" required oninput="isoma14.innerHTML= Number(ipv14.value) - Number(ipc14.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma14" id="isoma14">0</output>
+                </form></td>
+            </tr>
+            <tr>
+                <td>Vinh3</td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pc15" id="ipc15" min="0" max="10" required oninput="isoma15.innerHTML= Number(ipv15.value) - Number(ipc15.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <input type="number" name="pv15" id="ipv15" min="0" max="10" required oninput="isoma15.innerHTML= Number(ipv15.value) - Number(ipc15.value)">
+                </form></td>
+                <td><form action="" method="get" autocomplete="on">
+                    <output name="soma15" id="isoma15">0</output>
+                </form></td>
+            </tr>
     </table>
 </body>
 </html>
